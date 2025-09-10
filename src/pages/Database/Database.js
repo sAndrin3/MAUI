@@ -1,10 +1,11 @@
 import React from 'react';
+import Grid from "@mui/material/Grid";
 
 const Database = () => {
     return (
-        <div style={{marginLeft: '500px'}}>
+        <Grid item xs={8}>
             This is the database page.
-        </div>
+        </Grid>
     )
 }
 

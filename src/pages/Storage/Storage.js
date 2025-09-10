@@ -1,10 +1,11 @@
 import React from 'react';
+import Grid from "@mui/material/Grid";
 
 const Storage = () => {
     return (
-        <div style={{marginLeft: '500px'}}>
+        <Grid item xs={8}>
             This is the storage page.
-        </div>
+        </Grid>
     )
 }
 
