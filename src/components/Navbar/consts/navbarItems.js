@@ -33,8 +33,8 @@ export const mainNavbarItems = [
     {
         id: 4,
         icon: <SettingsEthernetIcon/>,
-        label: 'Hosting',
-        route: 'hosting',
+        label: 'Functions',
+        route: 'functions',
     },
     {
         id: 5,
