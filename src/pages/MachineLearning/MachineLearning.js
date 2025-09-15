@@ -3,7 +3,7 @@ import Grid from "@mui/material/Grid";
 
 const MachineLearning = () => {
     return (
-        <Grid item xs={8}>
+        <Grid>
             This is the Machine Learning page.
         </Grid>
     )

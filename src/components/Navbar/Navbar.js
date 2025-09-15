@@ -23,9 +23,9 @@ const Navbar = () => {
             <Toolbar />
             <Divider />
             <List>
-                {mainNavbarItems.map((item, index) => (
-                    <ListItem button key={item.id} onClick={() => navigate(item.route)}>
-                        <ListItemButton>
+                {mainNavbarItems.map((item) => (
+                    <ListItem key={item.id} disablePadding>
+                        <ListItemButton onClick={() => navigate(item.route)}>
                             <ListItemIcon sx={navbarStyles.icons}>
                                 {item.icon}
                             </ListItemIcon>

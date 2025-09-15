@@ -3,7 +3,7 @@ import Grid from "@mui/material/Grid";
 
 const Hosting = () => {
     return (
-        <Grid item xs={8}>
+        <Grid>
             This is the hosting page.
         </Grid>
     )

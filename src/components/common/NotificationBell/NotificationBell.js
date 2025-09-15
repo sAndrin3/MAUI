@@ -39,7 +39,6 @@ const NotificationBell = ({ iconColor, badgeContent }) => {
                     <IconButton
                         color={iconColor}
                         onClick={notifications.length  ? handleOpen : null}
-                        anchorEl={anchorEl}
                     >
                         <Badge
                             badgeContent={notifications.length }
